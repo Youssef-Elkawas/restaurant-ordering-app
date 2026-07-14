@@ -57,19 +57,6 @@ The application allows users to browse a restaurant menu, add and remove meals, 
 
 ---
 
-## 🚀 Future Improvements
-
-- 🧾 Order quantity controls (+ / −).
-- 💾 Save orders using Local Storage.
-- 🔍 Search and filter menu items.
-- 🍽️ Menu categories.
-- 🌙 Dark mode.
-- 📱 Improve responsiveness.
-- 💳 Real payment integration using Stripe.
-- 🍔 Add food images for each meal.
-
----
-
 ## 📖 Course
 
 Built while following the **Scrimba Fullstack Developer Path**.
