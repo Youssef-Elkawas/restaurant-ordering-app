@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Smythe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Youssef's Diner</h1>
+            <p>The best meals in town.</p>
+        </header>
+        
+        <main id="main"></main>
+        <section id="orderlist"></section>
+
+        <div id="modal" class="modal-container">
+            <div class="modal-inner">
+                <h2>Enter card details</h2>
+                <form id="payment-form">
+                    <input type="text" name="userName" placeholder="Enter your name" required>
+                    <input type="number" name="cardNumber" placeholder="Enter card number" required>
+                    <input type="number" name="cardCvv" placeholder="Enter CVV" required>
+                    <button type="submit" class="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
